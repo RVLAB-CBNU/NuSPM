@@ -54,5 +54,19 @@ Reconfiguration is required for real network acceleration of structured pruning.
 ```python
 python reconfigure.py -b 256 -p 50 --state_dict <state_dict path>
 ```
-## Reference
-This repository is built using [DeepLearningExamples](https://github.com/NVIDIA/DeepLearningExamples).
+## Acknowledgements
+This repository is built using [DeepLearningExamples](https://github.com/NVIDIA/DeepLearningExamples). This work is supported by Institute of Information &
+communications Technology Planning & Evaluation (IITP). (No. 2020-0-01077 and No. 2021-0-02068)
+
+## Citation
+If you find our work is useful in your research, please consider citing:
+```
+@InProceedings{Lee_2024_WACV,
+    author    = {Lee, Donghyeon and Lee, Eunho and Hwang, Youngbae},
+    title     = {Pruning From Scratch via Shared Pruning Module and Nuclear Norm-Based Regularization},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {January},
+    year      = {2024},
+    pages     = {1393-1402}
+}
+```
